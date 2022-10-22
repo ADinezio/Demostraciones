@@ -71,6 +71,18 @@
     <Compile Include="frmMetodos.Designer.cs">
       <DependentUpon>frmMetodos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmStruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStruct.Designer.cs">
+      <DependentUpon>frmStruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVector.Designer.cs">
+      <DependentUpon>frmVector.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -84,6 +96,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMetodos.resx">
       <DependentUpon>frmMetodos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStruct.resx">
+      <DependentUpon>frmStruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVector.resx">
+      <DependentUpon>frmVector.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
